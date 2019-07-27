@@ -8,6 +8,16 @@
 */
 
 /* Reset */
+        html {
+		height: 100%;
+              /* Set your background with this */
+                background-color: #348cb2;
+                background: url("images/bg.jpg") no-repeat center center fixed; 
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+        }
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
@@ -99,6 +109,7 @@
 	.icon {
 		text-decoration: none;
 		position: relative;
+                color: black;
 	}
 
 		.icon:before {
@@ -108,10 +119,12 @@
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
+                        color: black;
 		}
 
 		.icon > .label {
 			display: none;
+                        color: black;
 		}
 
 /* Wrapper */
@@ -172,27 +185,30 @@
 /* BG */
 
 	#bg {
-		-moz-animation: bg 60s linear infinite;
-		-webkit-animation: bg 60s linear infinite;
-		-ms-animation: bg 60s linear infinite;
-		animation: bg 60s linear infinite;
-		-moz-backface-visibility: hidden;
-		-webkit-backface-visibility: hidden;
-		-ms-backface-visibility: hidden;
-		backface-visibility: hidden;
-		-moz-transform: translate3d(0,0,0);
-		-webkit-transform: translate3d(0,0,0);
-		-ms-transform: translate3d(0,0,0);
-		transform: translate3d(0,0,0);
-	/* Set your background with this */
+		/* -moz-animation: bg 60s linear infinite; */
+		/* -webkit-animation: bg 60s linear infinite; */
+		/* -ms-animation: bg 60s linear infinite; */
+		/* animation: bg 60s linear infinite; */
+		/* -moz-backface-visibility: hidden; */
+		/* -webkit-backface-visibility: hidden; */
+		/* -ms-backface-visibility: hidden; */
+		/* backface-visibility: hidden; */
+		/* -moz-transform: translate3d(0,0,0); */
+		/* -webkit-transform: translate3d(0,0,0); */
+		/* -ms-transform: translate3d(0,0,0); */
+		/* transform: translate3d(0,0,0); */
+	/* /1* Set your background with this *1/ */
+		/* /1* background-image: url("images/bg.jpg"); *1/ */
+                /* background: url("images/bg.jpg") no-repeat center center fixed; */ 
+                /* -webkit-background-size: cover; */
+                /* -moz-background-size: cover; */
+                /* -o-background-size: cover; */
+                /* background-size: cover; */
 
-		background: #348cb2 url("images/bg.jpg") bottom left;
-		background-repeat: repeat-x;
-		height: 100%;
-		left: 0;
-		opacity: 1;
-		position: fixed;
-		top: 0;
+		/* left: 0; */
+		/* opacity: 1; */
+		/* position: fixed; */
+		/* top: 0; */
 	}
   .no-scroll {
     -moz-animation: none !important;
@@ -640,7 +656,7 @@
 					-ms-transition: all 0.2s ease-in-out;
 					transition: all 0.2s ease-in-out;
 					border-radius: 100%;
-					border: solid 1px #fff;
+					border: solid 1px black;
 					display: block;
 					font-size: 1.75em;
 					height: 2.5em;
@@ -656,8 +672,8 @@
 				}
 
 					#header nav a:hover:before {
-						background-color: rgba(255, 255, 255, 0.175);
-						color: #fff;
+						background-color: rgba(0, 0, 0, 0.175);
+						color: black;
 					}
 
 				#header nav a:active {
@@ -666,8 +682,8 @@
 				}
 
 					#header nav a:active:before {
-						background-color: rgba(255, 255, 255, 0.35);
-						color: #fff;
+						background-color: rgba(0, 0, 0, 0.175);
+						color: black;
 					}
 
 				#header nav a span {
