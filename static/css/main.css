@@ -82,6 +82,11 @@
 		overflow: hidden;
 	}
 
+	.logo {
+	height: 10vh;
+	width: auto;
+	}
+
 		body.loading * {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
