@@ -83,8 +83,9 @@
 	}
 
 	.logo {
-	height: 10vh;
-	width: auto;
+		max-height: 10vh;
+		height: 10vh;
+		width: auto;
 	}
 
 		body.loading * {
